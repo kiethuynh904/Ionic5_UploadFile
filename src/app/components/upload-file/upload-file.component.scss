@@ -1,0 +1,12 @@
+    .upload-wrap {
+        display: block;
+        position: relative;
+        overflow: hidden;
+      > input[type='file'] {
+          position: absolute;
+          left: -99999px;
+          top: -99999px;
+        }
+    }
+  
+  
